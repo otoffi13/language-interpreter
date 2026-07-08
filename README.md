@@ -85,12 +85,7 @@ Single-line comments:
 -- this is a comment
 ```
 
-Multi-line comments:
-
-```text
-```
-this is a multi-line comment
-```
+Multi-line comments are marked with triple backticks in the interpreted language.
 ```
 
 ## Example program
