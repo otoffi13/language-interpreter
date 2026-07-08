@@ -1,0 +1,23 @@
+--Przykłądowy program
+
+pobierz(x)
+
+--wykonanie i wyswietlenie operacji dodawania nie zmieni wartości zmiennej
+wyswietl(+(x, 1))
+wyswietl(x)
+
+x <- +(x, 1)
+wyswietl(x)
+
+wyswietl(&&(x, 0))
+wyswietl(&&(x, 1))
+
+wyswietl(||(x, 0))
+wyswietl(||(x, 1))
+
+wyswietl(<=(x, 4))
+
+pobierz(y)
+
+wyswietl(-(x, y))
+wyswietl(+(x, +(y, 4)))
